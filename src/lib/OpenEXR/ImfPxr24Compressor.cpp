@@ -43,11 +43,11 @@
 #include "ImfNamespace.h"
 
 #include <Iex.h>
-#include <ImathFun.h>
+#include <Imath/ImathFun.h>
 
 #include <algorithm>
 #include <assert.h>
-#include <half.h>
+#include <Imath/half.h>
 #include <openexr_compression.h>
 
 using namespace std;

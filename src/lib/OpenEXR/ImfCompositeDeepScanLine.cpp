@@ -12,8 +12,8 @@
 #include "ImfDeepScanLineInputPart.h"
 #include "ImfFrameBuffer.h"
 #include "ImfPixelType.h"
+#include "../Iex/Iex.h"
 
-#include <Iex.h>
 #include <stddef.h>
 #include <vector>
 OPENEXR_IMF_INTERNAL_NAMESPACE_SOURCE_ENTER

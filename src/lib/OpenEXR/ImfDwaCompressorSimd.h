@@ -22,7 +22,7 @@
 #include "OpenEXRConfigInternal.h"
 
 #include <assert.h>
-#include <half.h>
+#include <Imath/half.h>
 
 #include <algorithm>
 

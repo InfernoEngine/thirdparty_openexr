@@ -115,10 +115,10 @@
 #include "ImfXdr.h"
 #include "ImfZip.h"
 
-#include "ImathBox.h"
-#include "ImathFun.h"
-#include "ImathVec.h"
-#include "half.h"
+#include <Imath/ImathBox.h>
+#include <Imath/ImathFun.h>
+#include <Imath/ImathVec.h>
+#include <Imath/half.h>
 
 #include <algorithm>
 #include <array>

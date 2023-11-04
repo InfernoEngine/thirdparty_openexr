@@ -17,7 +17,7 @@
 #include "ImfIO.h"
 #include "ImfXdr.h"
 
-#include "IexBaseExc.h"
+#include "../Iex/IexBaseExc.h"
 
 #include <cstring>
 #include <typeinfo>

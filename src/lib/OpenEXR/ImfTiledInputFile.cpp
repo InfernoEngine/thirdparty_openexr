@@ -14,7 +14,7 @@
 #include "Iex.h"
 #include "IlmThreadPool.h"
 #include "IlmThreadSemaphore.h"
-#include "ImathVec.h"
+#include <Imath/ImathVec.h>
 #include "ImfChannelList.h"
 #include "ImfCompressor.h"
 #include "ImfConvert.h"

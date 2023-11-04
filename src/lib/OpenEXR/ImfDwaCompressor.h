@@ -17,7 +17,7 @@
 #include "ImfChannelList.h"
 #include "ImfZip.h"
 
-#include <half.h>
+#include <Imath/half.h>
 
 #include <cstdint>
 #include <vector>

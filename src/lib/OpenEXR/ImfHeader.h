@@ -14,9 +14,9 @@
 
 #include "ImfForward.h"
 
-#include "IexBaseExc.h"
-#include "ImathBox.h"
-#include "ImathVec.h"
+#include "../Iex/IexBaseExc.h"
+#include <Imath/ImathBox.h>
+#include <Imath/ImathVec.h>
 #include "ImfCompression.h"
 #include "ImfLineOrder.h"
 #include "ImfName.h"

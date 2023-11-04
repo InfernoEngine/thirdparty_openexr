@@ -10,7 +10,7 @@
 //-----------------------------------------------------------------------------
 
 #include "IlmThreadPool.h"
-#include "Iex.h"
+#include "../Iex/Iex.h"
 #include "IlmThread.h"
 #include "IlmThreadSemaphore.h"
 

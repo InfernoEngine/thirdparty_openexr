@@ -57,3 +57,5 @@ docs/_test_images/
 
 # Ignore Bazel generated files
 bazel-* 
+
+.temp

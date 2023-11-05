@@ -27,7 +27,7 @@
 #include <IlmThreadSemaphore.h>
 #include <ImfIO.h>
 #include <ImfXdr.h>
-#include <half.h>
+#include <Imath/half.h>
 
 //
 // This test uses the code that generates the dwaLookups.h header to

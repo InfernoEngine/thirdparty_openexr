@@ -16,7 +16,7 @@
 #include <ImfIntAttribute.h>
 #include <ImfOpaqueAttribute.h>
 #include <ImfOutputFile.h>
-#include <half.h>
+#include <Imath/half.h>
 
 #include <assert.h>
 #include <stdio.h>

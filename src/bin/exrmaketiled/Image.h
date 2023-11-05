@@ -12,11 +12,11 @@
 //
 //----------------------------------------------------------------------------
 
-#include <ImathBox.h>
+#include <Imath/ImathBox.h>
 #include <ImfArray.h>
 #include <ImfFrameBuffer.h>
 #include <ImfPixelType.h>
-#include <half.h>
+#include <Imath/half.h>
 
 #include <map>
 #include <string>

@@ -35,7 +35,7 @@
 #include <ImfInputFile.h>
 #include <ImfOutputFile.h>
 #include <ImfTiledOutputFile.h>
-#include <half.h>
+#include <Imath/half.h>
 #ifdef __linux
 #    include <sys/types.h>
 #    include <sys/stat.h>

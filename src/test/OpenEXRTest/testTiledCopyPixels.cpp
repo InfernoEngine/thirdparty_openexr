@@ -14,7 +14,7 @@
 #include <ImfInputFile.h>
 #include <ImfTiledInputFile.h>
 #include <ImfTiledOutputFile.h>
-#include <half.h>
+#include <Imath/half.h>
 
 #include <assert.h>
 #include <stdio.h>

@@ -13,11 +13,11 @@
 //----------------------------------------------------------------------------
 
 #include <Iex.h>
-#include <ImathBox.h>
+#include <Imath/ImathBox.h>
 #include <ImfArray.h>
 #include <ImfChannelList.h>
 #include <ImfFrameBuffer.h>
-#include <half.h>
+#include <Imath/half.h>
 
 #include <map>
 #include <string>

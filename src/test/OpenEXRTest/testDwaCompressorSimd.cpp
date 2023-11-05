@@ -11,7 +11,7 @@
 #include <ImfDwaCompressorSimd.h>
 #include <ImfSystemSpecific.h>
 #include <assert.h>
-#include <half.h>
+#include <Imath/half.h>
 #include <iostream>
 #include <math.h>
 #include <string.h>

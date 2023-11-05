@@ -5,7 +5,7 @@
 
 #include <ImfNamespace.h>
 #include <assert.h>
-#include <half.h>
+#include <Imath/half.h>
 #include <iomanip>
 #include <iostream>
 #include <math.h>

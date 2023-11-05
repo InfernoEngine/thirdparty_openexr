@@ -19,7 +19,7 @@
 #include <ImfInputFile.h>
 #include <ImfOutputFile.h>
 #include <ImfTiledOutputFile.h>
-#include <half.h>
+#include <Imath/half.h>
 
 #include <algorithm>
 #include <assert.h>

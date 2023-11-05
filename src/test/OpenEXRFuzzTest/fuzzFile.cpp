@@ -12,7 +12,7 @@
 #include <Iex.h>
 #include <ImfArray.h>
 #include <ImfRgbaFile.h>
-#include <half.h>
+#include <Imath/half.h>
 
 #include "../OpenEXRTest/TestUtilFStream.h"
 #include <fstream>

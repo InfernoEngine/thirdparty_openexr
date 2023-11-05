@@ -13,7 +13,7 @@
 #include <ImfHeader.h>
 #include <ImfInputFile.h>
 #include <ImfOutputFile.h>
-#include <half.h>
+#include <Imath/half.h>
 
 #include <assert.h>
 #include <stdio.h>

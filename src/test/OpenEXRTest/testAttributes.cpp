@@ -12,7 +12,7 @@
 #include <ImfInputFile.h>
 #include <ImfOutputFile.h>
 #include <ImfVersion.h>
-#include <half.h>
+#include <Imath/half.h>
 
 #include <ImfBoxAttribute.h>
 #include <ImfChannelListAttribute.h>

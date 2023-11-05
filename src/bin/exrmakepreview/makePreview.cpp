@@ -11,7 +11,7 @@
 
 #include "makePreview.h"
 
-#include <ImathFun.h>
+#include <Imath/ImathFun.h>
 #include <ImathMath.h>
 #include <ImfArray.h>
 #include <ImfInputFile.h>

@@ -21,7 +21,7 @@
 #include <ImfTileDescriptionAttribute.h>
 #include <ImfTiledInputFile.h>
 #include <ImfTiledOutputFile.h>
-#include <half.h>
+#include <Imath/half.h>
 
 #include <algorithm>
 #include <assert.h>

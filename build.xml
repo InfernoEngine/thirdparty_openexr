@@ -4,7 +4,7 @@
 	<GlobalSolutionName>ThirdParty</GlobalSolutionName>
 	<GlobalNamespace>potato</GlobalNamespace>
 
-	<StaticLibrary>
+	<Library>
 		<Name>thirdparty_openexr</Name>
 		<SourceRoot>src/lib</SourceRoot>
 		<ExportedIncludeDirectory>src/lib</ExportedIncludeDirectory>
@@ -14,6 +14,8 @@
 		<LocalIncludeDirectory>src/lib/OpenEXR</LocalIncludeDirectory>
 		<LocalIncludeDirectory>src/lib/IlmThread</LocalIncludeDirectory>
 		<ThirdParty>true</ThirdParty>
+		<ThirdPartySharedGlobalExportDefine>OPENEXR_DLL</ThirdPartySharedGlobalExportDefine>
+		<ThirdPartySharedLocalBuildDefine>OPENEXR_EXPORTS;IEX_EXPORTS;ILMTHREAD_EXPORTS;OPENEXRCORE_EXPORTS;OPENEXRUTIL_EXPORTS</ThirdPartySharedLocalBuildDefine>
 		<ThirdPartySourceFile>
 			OpenEXRCore\attributes.c;
 			OpenEXRCore\base.c;
@@ -59,8 +61,6 @@
 			IlmThread\IlmThreadSemaphorePosix.cpp;
 			IlmThread\IlmThreadSemaphorePosixCompat.cpp;
 			IlmThread\IlmThreadSemaphoreWin32.cpp;
-			OpenEXR\b44ExpLogTable.cpp;
-			OpenEXR\dwaLookups.cpp;
 			OpenEXR\ImfAcesFile.cpp;
 			OpenEXR\ImfAttribute.cpp;
 			OpenEXR\ImfB44Compressor.cpp;
@@ -171,6 +171,6 @@
 		<Dependency>thirdparty_zlib</Dependency>
 		<Dependency>thirdparty_imath</Dependency>
 		<Dependency>thirdparty_libdeflate</Dependency>
-	</StaticLibrary>
+	</Library>
 
 </Module>
